@@ -49,6 +49,7 @@ npm run open
 * 星際大戰的部數需使用episode_id去選擇
 * 使用https://swapi.dev/films 可以發現每部片都有species的property的陣列，
   此陣列的長度為有多少個種族
+
 ![](https://i.imgur.com/C4OG7ty.png)
 
 ![](https://i.imgur.com/dymEbpa.png)
@@ -62,6 +63,7 @@ npm run open
 * 使用https://swapi.dev/api/vehicles/可以發現count為39台，但results只有10台，
 有個next的property有url，可以理解為分頁的概念，next到最終的url是null，
 * 這邊我使用遞迴，跳脫條件next為null，max_atmosphering_speed>1000為過濾條件
+
 ![](https://i.imgur.com/hXp8aUJ.png)
 
 ![](https://i.imgur.com/W0ViQDD.png)
@@ -76,6 +78,7 @@ URL: https://github.com/hahow/hahow-recruit
 * 將整個列表的每個li中的text人名提取出來
 
 ![](https://i.imgur.com/qRWWa35.png)
+
 ![](https://i.imgur.com/I7A9BCF.png)
 
 ### 請進入到 frontend.md 並且查看 "Wireframe" 的圖片是否存在
@@ -83,14 +86,17 @@ URL: https://github.com/hahow/hahow-recruit
 * 假設Wireframe的下面一定有img元素，用visible去判斷是否存在
 
 ![](https://i.imgur.com/oLVds5L.png)
+
 ![](https://i.imgur.com/490ILDs.png)
 
 ### 最後一個 commit 的人是誰
 * 搜尋commits的元素click進去，這邊有個bug我使用.click()沒辦法進去，需使用.click().click()
  
 ![](https://i.imgur.com/MPakktH.png)
+
 * 進到Commits紀錄裡面，搜尋class取第一個的文字
 
 ![](https://i.imgur.com/lGqTVNw.png)
+
 ![](https://i.imgur.com/wBHgH6O.png)
 
