@@ -24,7 +24,6 @@
 專案下載
 ```
 git clone https://github.com/zang-hao/hahow-project-James.git
-git pull
 ```
 專案執行
 ```
