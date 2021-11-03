@@ -1,4 +1,5 @@
 # Hahow Quality Engineer 徵才小專案-James
+此為面試的小專案，附上作業流程
 
 此專案包含以下內容：
 * [專案說明](#專案說明)
@@ -31,8 +32,11 @@ npm install --dev
 npm run open
 ```
 自動執行Cypress程式，選擇要執行的測試項目
+
 ![](https://i.imgur.com/cVH7ZM2.png)
+
 自動進行測試，測試完畢可點選各個Test Case觀看結果
+
 ![](https://i.imgur.com/JpFVIUI.png)
 
 
