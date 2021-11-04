@@ -46,6 +46,7 @@ npm run open
 * 相關的限制可以參考網站文件
 
 ### 有多少不同種族的人出現在第六部？
+
 * 星際大戰的部數需使用episode_id去選擇
 * 使用https://swapi.dev/films 可以發現每部片都有species的property的陣列，
   此陣列的長度為有多少個種族
@@ -55,12 +56,14 @@ npm run open
 ![](https://i.imgur.com/dymEbpa.png)
 
 ### 請依據電影集數去排序電影名字？
+
 * 使用https://swapi.dev/films 總共有6個電影物件陣列，根據episode_id去排序由小到大
 
 ![](https://i.imgur.com/IS76Ejd.png)
 
 ### 請幫我挑出電影裡所有的車輛，馬力超過１０００的。
-* 使用https://swapi.dev/api/vehicles/可以發現count為39台，但results只有10台，
+
+* 使用https://swapi.dev/api/vehicles/ 可以發現count為39台，但results只有10台，
 有個next的property有url，可以理解為分頁的概念，next到最終的url是null，
 * 這邊我使用遞迴，跳脫條件next為null，max_atmosphering_speed>1000為過濾條件
 
